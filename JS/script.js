@@ -67,13 +67,13 @@ function hideShowOnScroll(){
 	if (document.documentElement.scrollTop>100) {
 
 		console.log("sí");
-		document.getElementById("marca").style.opacity = "0";
+		// document.getElementById("marca").style.opacity = "0";
 		document.getElementById("navMedidas").style.height = "80px";
 	}
 
 	else{
 		console.log("no")
-		document.getElementById("marca").style.opacity = "1";
+		// document.getElementById("marca").style.opacity = "1";
 		document.getElementById("navMedidas").style.height = "110px";
 	}
 };
